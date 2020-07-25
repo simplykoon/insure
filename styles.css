@@ -1,0 +1,396 @@
+body { 
+				padding : 0px;
+				margin: 0px; 
+				font-family: Karla; 
+				}
+.mainbody {
+				text-align : center;
+				padding:0px; 
+				margin: 0px;
+				display:flex; 
+				flex-direction : column; 
+				}
+.hideaway {
+				display : block; 
+				}
+img {
+	width : 100%;
+	margin: 0px; 
+	padding : 0px; 
+				}
+header {
+				padding : 20px;
+				position:relative; 
+				}
+.ham {
+				position : absolute; 
+				right : 20px; 
+				top : 10px; 
+				}
+nav {
+				display: none;  
+				position : relative; 
+				}
+.navheader {
+				padding : 20px; 
+				}
+.navsubs {
+				padding-top : 30px; 
+				background-color : hsl(270, 9%, 17%);
+				text-align:center;
+				height: 600px; 
+				position : relative; 
+				}
+button.navbtn {
+				font-size : 20px; 
+				font-weight: bold; 
+				padding : 20px;
+				background-color : transparent;
+				border : transparent;
+				color : white; 
+				padding-left: 20%; 
+				padding-right : 20%; 
+				text-transform : uppercase;
+				}
+button.navbtn:hover {
+				border : 2px solid white; 
+				}
+.close {
+				position: absolute; 
+				top : 15px; 
+				right : 20px; 
+				}
+.navbg {
+				position : absolute; 
+				bottom : 0px; 
+				right:0px; 
+				}
+.plans {
+				background-color : hsl(256, 26%, 20%);
+				position : relative; 
+				padding : 20px; 
+				color: white;
+				margin-top : 0px;
+				}
+ .bgleft, .bgright{
+ 				display:none; 
+ 				}
+.left-icon {
+				position : absolute; 
+				left : 0px; 
+				top : 0px; 
+				}		
+.right-icon {
+				position : absolute; 
+				right: 0px ;
+				top : 100px; 
+				}
+	.bgabove {
+					display : none;
+					border : 0.5px solid white; 
+					}
+h1 {
+				font-family:"DM Serif Display";
+				font-weight : lighter;
+				line-height: 30px; 
+				}	
+.diff {
+				padding-top : 60px; 
+				}
+ .below  {
+				border : 0.5px solid purple; 
+				width: 30%;
+				}
+ .bgbelow {
+ 				display:none; 
+ 				}
+.hori {
+				border : 0.5px solid gray; 
+				width : 90%;
+				}
+.work {
+				background-color : hsl(256, 26%, 20%);
+				position : relative; 
+				padding : 20px; 
+				color: white;
+				margin : 20px;
+				margin-bottom : 50px; 
+				height : 250px; 
+				position : relative;
+				 }
+.bgwork {
+				position : absolute; 
+				top : 0px; 
+				right : 0px; 
+				}
+button.planbtn, button.workbtn {
+				font-family: sans-sarif; 
+				border:1px solid white; 
+				color:white;
+				background-color:transparent;
+				padding: 12px; 
+				margin: 20px; 
+				text-transform : uppercase;
+					}
+button:active {
+				
+				}
+.snappy {
+				padding-top : 30px; 
+				}
+.process {
+				padding-top: 20px; 
+				font-weight: bold;
+				font-size: 18px; 
+				font-family:"DM Serif Display";
+				font-weight : lighter;
+				}
+.post-process {
+				padding-top: 15px; 
+				color : hsl(273, 4%, 51%);
+				}
+.footer {
+				background-color : hsl(0, 0%, 98%);
+				text-transform : uppercase;
+				font-size : 12px;
+				line-height: 20px; 
+				font-weight:bold; 
+				over-flow:hidden;
+				font-family: Karla;
+				background-image: url("bg-pattern-footer-mobile.svg");
+				background-repeat: no-repeat; 
+				}
+.prefooter { 
+				
+				}
+.footerlogo {
+				margin-top : 100px;
+				margin-bottom: 30px; 
+				}
+.one, .two, .three, .four {
+				margin : 8px;
+				margin-top: 0px; 
+				}
+.footerhead {
+				color: hsl(273, 4%, 51%); 
+				}
+.footersubs {
+				color: hsl(270, 9%, 17%); 
+				}
+				
+@media screen and (min-width:768px) {
+	body{
+					padding: 0px;
+					margin:0px; 
+					}
+	.navsubs {
+				background-color : transparent; 
+				display : flex;
+				height:auto;  
+				padding:10px; 
+				}
+ button.navbtn {
+				color: hsl(216, 30%, 68%);
+				font-size:10px; 
+				font-weight: bold;
+				padding:15px; 
+				}
+	button.navbtn:hover {
+					border : 1px solid blue; 
+					}
+ nav {
+								display : flex; 
+								justify-content : space-between; 
+								}
+	img {
+					width: 380px; 
+					height : 460px; 
+					position :absolute;
+					top : 120px; 
+					right : 50px; 
+					float : right; 
+					z-index : 1;
+					}
+	h1 {
+					width : 50%;
+					font-size: 36px; 
+					}
+ .get {
+ 				width : 55%;
+ 				font-size: 11px; 
+ 				}
+ 	.bgabove {
+ 					display : block; 
+ 				 border : 0.5px solid white; 
+ 					text-align : left; 
+ 					width: 15%;
+ 					}
+ 	.below {
+ 					display : none; 
+ 					}
+ .bgbelow {
+ 				display : block; 
+ 				width : 15%;
+ 				border : 0.5px solid purple; 
+ 				text-align: left; 
+ 				}
+ .mainbody {
+ 				position: relative;
+ 				height : auto; 
+ 				text-align: left; 
+ 				 	}
+.plans {
+				position:relative; 
+			 text-align : left;
+			 height : auto; 
+			 float : left;
+			 padding : 80px; 
+			}
+ .bgleft {
+ 				display:block; 
+ 				position : absolute;
+ 				left: -50px; 
+ 				top : 250px; 
+ 				}
+ 	.bgright {
+ 					display : block; 
+ 					position: absolute;
+ 					top:0px; 
+ 					right: 0px;
+ 					width : 250px; 
+ 					z-index: 1;
+ 					}
+ .ham, .close {
+				display : none; 
+				}
+	header {
+					display : none; 
+					}
+	.navheader {
+					display : flex; 
+					}
+	.navbg {
+					display : none; 
+					}
+	.diff {
+					text-align: left; 
+					margin-top: 120px; 
+					padding:80px;
+					 	}
+ .post-process {
+ 				font-size: 13px; 
+ 				}
+	.work {
+					height: auto; 
+					display : flex;
+					text-align: left;
+					margin:80px; 
+				 padding: 30px;	justify-content:space-between;
+				 background-image : url("bg-pattern-how-we-work-desktop.svg");
+				 background-position: right top; 
+				 background-repeat: no-repeat;
+					}
+	button.planbtn {
+					margin-top : 15px; 
+					}
+ button.workbtn {
+ 				margin-top: 70px;
+ 				}
+ 	.bgwork {
+ 				display: none; 
+ 					}
+	.flexing {
+					display : flex;
+					padding : 20px; 
+					}
+ .floatone {
+ 				 width : 30%;
+ 				 margin : auto; 
+ 				}
+ 	.floattwo {
+ 				margin: auto; 
+ 					width : 30%;
+ 					}
+ 		.floatthree {
+ 				 margin: auto; 
+ 						width: 30%;
+ 						}
+ 	.flexingone {
+ 					display : flex; 
+ 					text-align : left; 
+ 					margin : 0px;
+ 					width:90%; 
+ 					padding-left: 0px;  
+ 					}
+.footer {
+				line-height: 20px; 
+				padding: 80px;
+				background-image: url("bg-pattern-footer-desktop.svg"); 
+	}
+.footerlogo {
+				margin-top: 0px; 
+				}
+.footerhead {
+		  margin : auto;
+		  margin-top: 0px; 
+		  margin-left: 0px; 
+				}
+ .prefooter {
+ 				display : flex; 
+ 				justify-content : space-between; 
+ 						}
+ 	.left-icon, .right-icon{
+ 					display : none; 
+ 					}
+ 	.num {
+ 					 
+ 					}
+ 	.hori { 
+ 					width: 100%;
+ 					border : 0.5px solid hsl(216, 30%, 68%);
+ 					}
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Dark Violet: hsl(256, 26%, 20%)
+- Grayish Blue: hsl(216, 30%, 68%)
+
+### Neutral
+
+- Very Dark Violet: hsl(270, 9%, 17%)
+- Dark Grayish Violet: hsl(273, 4%, 51%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Headings
+
+- Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
+- Weights: 400
+
+### Body
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla )
+- Weights: 400, 700
+
+## Icons
+
+You can use either use the social icons provided or load in a font icon library. Some library suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)
