@@ -343,7 +343,7 @@ button:active {
  					display : none; 
  					}
  	.num {
- 					 
+ 		display:flex;			 
  					}
  	.hori { 
  					width: 100%;
