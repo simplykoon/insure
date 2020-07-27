@@ -257,7 +257,6 @@ button:active {
  					position: absolute;
  					top:0px; 
  					right: 0px;
- 					width : 250px; 
  					z-index: 1;
  					}
  .ham, .close {
@@ -294,7 +293,7 @@ button:active {
 					margin-top : 15px; 
 					}
  button.workbtn {
- 				margin-top: 70px;
+ 				margin-top: 40px;
  				}
  	.bgwork {
  				display: none; 
@@ -343,54 +342,34 @@ button:active {
  					display : none; 
  					}
  	.num {
- 		display:flex;			 
+ 					 display : flex; 
  					}
  	.hori { 
  					width: 100%;
  					border : 0.5px solid hsl(216, 30%, 68%);
  					}
-# Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Dark Violet: hsl(256, 26%, 20%)
-- Grayish Blue: hsl(216, 30%, 68%)
-
-### Neutral
-
-- Very Dark Violet: hsl(270, 9%, 17%)
-- Dark Grayish Violet: hsl(273, 4%, 51%)
-- Very Light Gray: hsl(0, 0%, 98%)
-
-## Typography
-
-### Body Copy
-
-- Font size: 16px
-
-### Headings
-
-- Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
-- Weights: 400
-
-### Body
-
-- Family: [Karla](https://fonts.google.com/specimen/Karla )
-- Weights: 400, 700
-
-## Icons
-
-You can use either use the social icons provided or load in a font icon library. Some library suggestions can be found below:
-
-- [Font Awesome](https://fontawesome.com)
-- [IcoMoon](https://icomoon.io)
-- [Ionicons](https://ionicons.com)
+				}
+@media screen and (min-width:1200px) {
+	.get {
+		width: 55%;
+		font-size: 20px;
+	}
+	h1 {
+		font-size: 48px;
+		width: 25%;
+	}
+	h1.sub {
+		width: 30%;
+		font-size: 36px;
+	}
+	img {
+		width: 500px;
+		height: 550px;
+	}
+	.process {
+        font-size: larger;
+	}
+	.post-process {
+        font-size: large;
+	}
+}
